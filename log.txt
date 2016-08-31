@@ -33,3 +33,8 @@ $ git add -A //add all files
 
 **make a commit
 $ git commit -m "Commit text"
+
+**show commits log
+$ git log
+
+
