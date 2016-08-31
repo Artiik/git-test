@@ -37,4 +37,38 @@ $ git commit -m "Commit text"
 **show commits log
 $ git log
 
+**show specific commit
+$ git show <commit id>
+
+**show diff
+$ git diff <commit id>..<another commit id>
+
+**1 generate ssh key pair
+1. Your computer private key
+2. Server Public Key
+
+**creating ssh key
+ssh-keygen -t rsa -C "artem-makovetskiy@mail.ru"
+
+**display file contents
+$ cat <file-name>
+
+**create new repo in github
+
+**list all remote repos
+$ git remote -v
+
+**add new remote repo
+git remote add origin git@github.com:Artiik/git-test.git
+
+**set tracking info for this branch
+git branch --set-upstream-to=origin/master master
+
+**get remote changes
+$ git pull
+
+**push local changes
+$ git push
+
+
 
