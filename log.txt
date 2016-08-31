@@ -1,0 +1,35 @@
+Lists all hidden files with '.filename'
+ls -a | egrep '^\.'
+
+.gitconfig location
+vagrant
+
+**Set current user
+git config --global user.name "Chris Sevilleja"
+git config --global user.email "chris@scotch.io"
+
+**Get config params
+# view the entire config
+git config --list
+
+# view a specific config setting
+git config user.name
+Chris Sevilleja
+
+**create new repository
+$ git init
+
+**git working process
+1. working files
+2. staging area
+3. final commit
+
+**check git status
+$ git status
+
+**track file/add to staging area
+$ git add index.html //add specific file
+$ git add -A //add all files
+
+**make a commit
+$ git commit -m "Commit text"
